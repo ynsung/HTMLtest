@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+#container {
+  width: 100%;
+}
+#header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+#nav {
+  width: 100%;
+  height: 30px;
+  background-color: gray;
+}
+#contents {
+  display: flex;
+  width: 100%;
+  height: 900px;
+  color: black;
+  background: url('https://github.com/ynsung/HTMLtest/blob/main/suzume03.jpg?raw=true') no-repeat;
+  background-size: 100% 100%;
+}
+
+#footer {
+  width: 100%;
+  height: 100px;
+  background-color: #888888;
+}
+.web {
+  padding:5px 45px;
+  margin:5px;   
+	width:80px;
+  cursor: pointer;
+}
+#myTitle {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Nanum Pen Script', cursive;
+}
+#myTitle::first-letter {
+  color: rgb(104, 101, 101); /* applies to the first letter (Y) */
+}
+#myTitle span {
+  color: rgb(130, 128, 128); /* applies to the second letter (S) */
+}
