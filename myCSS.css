@@ -6,49 +6,51 @@
   box-sizing: border-box;
 }
 #container {
+  background: url('https://github.com/ynsung/HTMLtest/blob/main/suzume03.jpg?raw=true') no-repeat;
+  background-size: 100% 100%;
   width: 100%;
 }
 #header {
+  padding-top:30px;
   width: 100%;
-  height: 100px;
-  background-color: white;
+  height: 20vh;
   display: flex;
   justify-content: center; 
-  align-items: center; 
+  align-items: center;
 }
-#nav {
-  width: 100%;
-  height: 30px;
-  background-color: gray;
+section {
+  position: auto;
 }
 #contents {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center;
+  padding: 0% 10% 0 10%;
   width: 100%;
-  height: 900px;
+  height: 80vh;
   color: black;
-  background: url('https://github.com/ynsung/HTMLtest/blob/main/suzume03.jpg?raw=true') no-repeat;
-  background-size: 100% 100%;
-}
-
-#footer {
-  width: 100%;
-  height: 100px;
-  background-color: #888888;
 }
 .web {
-  padding:5px 45px;
-  margin:5px;   
-	width:80px;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-left: 1%;
+  margin-right: 1%;
+  width:120px;
+  height:140px;
   cursor: pointer;
+  text-align:center;
+  color:white;
+}
+#icon {
+  border-radius: 10px;
+  margin-top: 20px;
+  /* width: 80px;
+  height: 80px; */
+  width: 80px;
+  height: 80px;
 }
 #myTitle {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bold;
   font-family: 'Nanum Pen Script', cursive;
-}
-#myTitle::first-letter {
-  color: rgb(104, 101, 101); /* applies to the first letter (Y) */
-}
-#myTitle span {
-  color: rgb(130, 128, 128); /* applies to the second letter (S) */
 }

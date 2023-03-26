@@ -1,10 +1,10 @@
-/* var cover = document.getElementById("naver");
+/*var cover = document.getElementById("naver");
 cover.addEventListener("click",function() {
 	window.location.href = 'https://www.naver.com';
-}); */
+});*/
 
 
-var webSite = document.querySelectorAll("p");
+var webSite = document.querySelectorAll(".web");
 for(i=0; i<webSite.length; i++) {
   webSite[i].addEventListener("click", function() {
      switch(this.innerText){
@@ -17,6 +17,8 @@ for(i=0; i<webSite.length; i++) {
       case "Daum" :
         window.location.href = 'https://www.daum.net';
         break;
+      case "Papago" :
+        window.location.href = 'https://papago.naver.com';
     }
   });
 }
