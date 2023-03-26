@@ -19,14 +19,49 @@ for(i=0; i<webSite.length; i++) {
         break;
       case "Papago" :
         window.location.href = 'https://papago.naver.com';
-    }
-  });
-}
-
-/* var items = document.querySelectorAll("li");  // 모든 항목 가져오기
-for(i=0; i<items.length; i++) {
-  items[i].addEventListener("click", function() {  // 항목 클릭했을 때 실행할 함수
-    if(this.parentNode)    // 부모 노드가 있다면 
-      this.parentNode.removeChild(this);  // 부모 노드에서 삭제
-  });
-} */
+        break;
+      case "Github" :
+        window.location.href = 'https://github.com';
+        break;
+      case "BaekJoon" :
+        window.location.href = 'https://www.acmicpc.net';
+        break;
+      case "Programmers" :
+        window.location.href = 'https://www.programmers.co.kr';
+        break;
+      case "Chatgpt" :
+        window.location.href = 'https://chat.openai.com';
+        break;
+      case "Facebook" :
+        window.location.href = 'https://www.facebook.com';
+        break;
+      case "Instagram" :
+        window.location.href = 'https://www.instagram.com';
+        break;
+      case 'Saint' :
+        window.location.href = 'https://saint.sogang.ac.kr';
+        break;
+      case 'SamsungSW' :
+        window.location.href = 'https://swexpertacademy.com';
+        break;
+      case 'LGCNS' :
+        window.location.href = 'https://www.lgcns.com';
+        break;
+      case 'CATCH' :
+        window.location.href = 'https://www.catch.co.kr';
+        break;
+      case 'Watcha' :
+        window.location.href = 'https://watcha.com';
+        break;
+      case 'Netflix' :
+        window.location.href = 'https://www.netflix.com/kr';
+        break;
+      case 'SogangJob' :
+        window.location.href = 'https://job.sogang.ac.kr';
+        break;
+      case 'AWS' :
+        window.location.href = 'https://aws.amazon.com';
+        break;
+      }
+    });
+  }
